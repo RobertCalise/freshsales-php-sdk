@@ -1,12 +1,13 @@
 {
-    "name": "andreybolonin/freshsales",
-    "license": "proprietary",
-    "type": "project",
-    "description": "freshsales",
-    "keywords": ["freshsales"],
+    "name": "bradenkeith/freshsales",
+    "license": "MIT",
+    "type": "library",
+    "description": "A Laravel wrapper to Freshsales API",
+    "keywords": ["freshsales", "laravel"],
+    "homepage": "https://github.com/bradenkeith/freshsales-php-sdk",
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "Freshsales\\": "src/"
         }
     },
     "require": {
