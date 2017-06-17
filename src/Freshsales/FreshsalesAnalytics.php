@@ -1,9 +1,7 @@
 <?php
+namespace Freshsales;
 
-/**
- */
-
-require(dirname(__FILE__) . '/freshsales/Client.php');
+use Freshsales\Freshsales\Client;
 
 /**
  * Class Freshsales

@@ -1,10 +1,7 @@
 <?php
+namespace Freshsales\Freshsales;
 
-/**
- */
-
-require(__DIR__ . '/CurlTransport.php');
-
+use Freshsales\Freshsales\CurlTransport;
 /**
  * Class Client
  */
